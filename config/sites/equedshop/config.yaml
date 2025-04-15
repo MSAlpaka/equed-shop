@@ -1,0 +1,62 @@
+base: 'https://shop.equed.eu/'
+dependencies:
+  - bootstrap-package/full
+languages:
+  -
+    title: English
+    enabled: true
+    languageId: 0
+    base: /
+    locale: en_US.UTF-8
+    navigationTitle: English
+    flag: us
+  -
+    title: German
+    enabled: true
+    locale: de_DE
+    hreflang: ''
+    base: /de/
+    websiteTitle: ''
+    navigationTitle: Deutsch
+    fallbackType: strict
+    fallbacks: ''
+    flag: de
+    languageId: 1
+  -
+    title: French
+    enabled: true
+    locale: fr_FR
+    hreflang: ''
+    base: /fr/
+    websiteTitle: ''
+    navigationTitle: Français
+    fallbackType: strict
+    fallbacks: ''
+    flag: fr
+    languageId: 2
+  -
+    title: Spanish
+    enabled: true
+    locale: es_ES
+    hreflang: ''
+    base: /es/
+    websiteTitle: ''
+    navigationTitle: Español
+    fallbackType: strict
+    fallbacks: ''
+    flag: es
+    languageId: 3
+  -
+    title: Swahili
+    enabled: true
+    locale: sw_TZ
+    hreflang: ''
+    base: /sw/
+    websiteTitle: ''
+    navigationTitle: ''
+    fallbackType: strict
+    fallbacks: ''
+    flag: tz
+    languageId: 4
+rootPageId: 1
+websiteTitle: ''
